@@ -1,0 +1,466 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		481DFA5A2AA0BA6200C21285 /* MyAppointmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481DFA592AA0BA6200C21285 /* MyAppointmentsView.swift */; };
+		481DFA5C2AA0BE7000C21285 /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481DFA5B2AA0BE7000C21285 /* Appointment.swift */; };
+		481DFA5E2AA10EA300C21285 /* CancelAppointmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481DFA5D2AA10EA300C21285 /* CancelAppointmentView.swift */; };
+		484E9C4F2AA65EA300C7EE81 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484E9C4E2AA65EA300C7EE81 /* SignInView.swift */; };
+		484E9C512AA660D500C7EE81 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484E9C502AA660D500C7EE81 /* SignUpView.swift */; };
+		484E9C532AA6824D00C7EE81 /* Patient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484E9C522AA6824D00C7EE81 /* Patient.swift */; };
+		484E9C552AA6A8E700C7EE81 /* Login.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484E9C542AA6A8E700C7EE81 /* Login.swift */; };
+		484E9C572AA6BED500C7EE81 /* UserDefaultsHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484E9C562AA6BED500C7EE81 /* UserDefaultsHelper.swift */; };
+		484E9C592AA763A000C7EE81 /* KeychainHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 484E9C582AA763A000C7EE81 /* KeychainHelper.swift */; };
+		485F9A7B2AAA9E7200019230 /* AuthenticationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 485F9A7A2AAA9E7200019230 /* AuthenticationManager.swift */; };
+		488DA37F2A9EC8E1009FF495 /* VollmedApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488DA37E2A9EC8E1009FF495 /* VollmedApp.swift */; };
+		488DA3812A9EC8E1009FF495 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488DA3802A9EC8E1009FF495 /* ContentView.swift */; };
+		488DA3832A9EC8E2009FF495 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 488DA3822A9EC8E2009FF495 /* Assets.xcassets */; };
+		488DA3862A9EC8E2009FF495 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 488DA3852A9EC8E2009FF495 /* Preview Assets.xcassets */; };
+		488DA38D2A9EC905009FF495 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488DA38C2A9EC905009FF495 /* HomeView.swift */; };
+		488DA3922A9EC937009FF495 /* Specialist.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488DA3912A9EC937009FF495 /* Specialist.swift */; };
+		488DA3942A9ECD43009FF495 /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488DA3932A9ECD43009FF495 /* WebService.swift */; };
+		488DA3972A9ECD5F009FF495 /* SpecialistCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488DA3962A9ECD5F009FF495 /* SpecialistCardView.swift */; };
+		488DA3992A9ED044009FF495 /* ButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488DA3982A9ED044009FF495 /* ButtonView.swift */; };
+		48D4B3F72AA0040F002A41C3 /* ScheduleAppointmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D4B3F62AA0040F002A41C3 /* ScheduleAppointmentView.swift */; };
+		48D4B3FA2AA006BC002A41C3 /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D4B3F92AA006BC002A41C3 /* Date+.swift */; };
+		48D4B3FE2AA0099A002A41C3 /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D4B3FD2AA0099A002A41C3 /* String+.swift */; };
+		48D4B4002AA00BB6002A41C3 /* ScheduleAppointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 48D4B3FF2AA00BB6002A41C3 /* ScheduleAppointment.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		481DFA592AA0BA6200C21285 /* MyAppointmentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppointmentsView.swift; sourceTree = "<group>"; };
+		481DFA5B2AA0BE7000C21285 /* Appointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
+		481DFA5D2AA10EA300C21285 /* CancelAppointmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelAppointmentView.swift; sourceTree = "<group>"; };
+		484E9C4E2AA65EA300C7EE81 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		484E9C502AA660D500C7EE81 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		484E9C522AA6824D00C7EE81 /* Patient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Patient.swift; sourceTree = "<group>"; };
+		484E9C542AA6A8E700C7EE81 /* Login.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Login.swift; sourceTree = "<group>"; };
+		484E9C562AA6BED500C7EE81 /* UserDefaultsHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaultsHelper.swift; sourceTree = "<group>"; };
+		484E9C582AA763A000C7EE81 /* KeychainHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainHelper.swift; sourceTree = "<group>"; };
+		485F9A7A2AAA9E7200019230 /* AuthenticationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationManager.swift; sourceTree = "<group>"; };
+		488DA37B2A9EC8E1009FF495 /* Vollmed.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Vollmed.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		488DA37E2A9EC8E1009FF495 /* VollmedApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VollmedApp.swift; sourceTree = "<group>"; };
+		488DA3802A9EC8E1009FF495 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		488DA3822A9EC8E2009FF495 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		488DA3852A9EC8E2009FF495 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		488DA38C2A9EC905009FF495 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		488DA3912A9EC937009FF495 /* Specialist.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Specialist.swift; sourceTree = "<group>"; };
+		488DA3932A9ECD43009FF495 /* WebService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
+		488DA3962A9ECD5F009FF495 /* SpecialistCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialistCardView.swift; sourceTree = "<group>"; };
+		488DA3982A9ED044009FF495 /* ButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonView.swift; sourceTree = "<group>"; };
+		48D4B3F62AA0040F002A41C3 /* ScheduleAppointmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleAppointmentView.swift; sourceTree = "<group>"; };
+		48D4B3F92AA006BC002A41C3 /* Date+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+.swift"; sourceTree = "<group>"; };
+		48D4B3FD2AA0099A002A41C3 /* String+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
+		48D4B3FF2AA00BB6002A41C3 /* ScheduleAppointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleAppointment.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		488DA3782A9EC8E1009FF495 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		484E9C5A2AA7688F00C7EE81 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				485F9A7A2AAA9E7200019230 /* AuthenticationManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		488DA3722A9EC8E1009FF495 = {
+			isa = PBXGroup;
+			children = (
+				488DA37D2A9EC8E1009FF495 /* Vollmed */,
+				488DA37C2A9EC8E1009FF495 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		488DA37C2A9EC8E1009FF495 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				488DA37B2A9EC8E1009FF495 /* Vollmed.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		488DA37D2A9EC8E1009FF495 /* Vollmed */ = {
+			isa = PBXGroup;
+			children = (
+				484E9C5A2AA7688F00C7EE81 /* Managers */,
+				48D4B3F82AA006B4002A41C3 /* Extensions */,
+				488DA3902A9EC927009FF495 /* Views */,
+				488DA38F2A9EC921009FF495 /* Models */,
+				488DA38E2A9EC919009FF495 /* Services */,
+				488DA37E2A9EC8E1009FF495 /* VollmedApp.swift */,
+				488DA3802A9EC8E1009FF495 /* ContentView.swift */,
+				488DA3822A9EC8E2009FF495 /* Assets.xcassets */,
+				488DA3842A9EC8E2009FF495 /* Preview Content */,
+			);
+			path = Vollmed;
+			sourceTree = "<group>";
+		};
+		488DA3842A9EC8E2009FF495 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				488DA3852A9EC8E2009FF495 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		488DA38E2A9EC919009FF495 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				488DA3932A9ECD43009FF495 /* WebService.swift */,
+				484E9C562AA6BED500C7EE81 /* UserDefaultsHelper.swift */,
+				484E9C582AA763A000C7EE81 /* KeychainHelper.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		488DA38F2A9EC921009FF495 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				488DA3912A9EC937009FF495 /* Specialist.swift */,
+				48D4B3FF2AA00BB6002A41C3 /* ScheduleAppointment.swift */,
+				481DFA5B2AA0BE7000C21285 /* Appointment.swift */,
+				484E9C522AA6824D00C7EE81 /* Patient.swift */,
+				484E9C542AA6A8E700C7EE81 /* Login.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		488DA3902A9EC927009FF495 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				488DA3952A9ECD55009FF495 /* Components */,
+				488DA38C2A9EC905009FF495 /* HomeView.swift */,
+				48D4B3F62AA0040F002A41C3 /* ScheduleAppointmentView.swift */,
+				481DFA592AA0BA6200C21285 /* MyAppointmentsView.swift */,
+				481DFA5D2AA10EA300C21285 /* CancelAppointmentView.swift */,
+				484E9C4E2AA65EA300C7EE81 /* SignInView.swift */,
+				484E9C502AA660D500C7EE81 /* SignUpView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		488DA3952A9ECD55009FF495 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				488DA3962A9ECD5F009FF495 /* SpecialistCardView.swift */,
+				488DA3982A9ED044009FF495 /* ButtonView.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		48D4B3F82AA006B4002A41C3 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				48D4B3F92AA006BC002A41C3 /* Date+.swift */,
+				48D4B3FD2AA0099A002A41C3 /* String+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		488DA37A2A9EC8E1009FF495 /* Vollmed */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 488DA3892A9EC8E2009FF495 /* Build configuration list for PBXNativeTarget "Vollmed" */;
+			buildPhases = (
+				488DA3772A9EC8E1009FF495 /* Sources */,
+				488DA3782A9EC8E1009FF495 /* Frameworks */,
+				488DA3792A9EC8E1009FF495 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Vollmed;
+			productName = Vollmed;
+			productReference = 488DA37B2A9EC8E1009FF495 /* Vollmed.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		488DA3732A9EC8E1009FF495 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					488DA37A2A9EC8E1009FF495 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 488DA3762A9EC8E1009FF495 /* Build configuration list for PBXProject "Vollmed" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 488DA3722A9EC8E1009FF495;
+			productRefGroup = 488DA37C2A9EC8E1009FF495 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				488DA37A2A9EC8E1009FF495 /* Vollmed */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		488DA3792A9EC8E1009FF495 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488DA3862A9EC8E2009FF495 /* Preview Assets.xcassets in Resources */,
+				488DA3832A9EC8E2009FF495 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		488DA3772A9EC8E1009FF495 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				484E9C532AA6824D00C7EE81 /* Patient.swift in Sources */,
+				481DFA5C2AA0BE7000C21285 /* Appointment.swift in Sources */,
+				48D4B3FA2AA006BC002A41C3 /* Date+.swift in Sources */,
+				484E9C592AA763A000C7EE81 /* KeychainHelper.swift in Sources */,
+				48D4B4002AA00BB6002A41C3 /* ScheduleAppointment.swift in Sources */,
+				488DA3922A9EC937009FF495 /* Specialist.swift in Sources */,
+				48D4B3FE2AA0099A002A41C3 /* String+.swift in Sources */,
+				488DA3942A9ECD43009FF495 /* WebService.swift in Sources */,
+				481DFA5E2AA10EA300C21285 /* CancelAppointmentView.swift in Sources */,
+				488DA38D2A9EC905009FF495 /* HomeView.swift in Sources */,
+				484E9C572AA6BED500C7EE81 /* UserDefaultsHelper.swift in Sources */,
+				488DA3972A9ECD5F009FF495 /* SpecialistCardView.swift in Sources */,
+				484E9C4F2AA65EA300C7EE81 /* SignInView.swift in Sources */,
+				485F9A7B2AAA9E7200019230 /* AuthenticationManager.swift in Sources */,
+				488DA3812A9EC8E1009FF495 /* ContentView.swift in Sources */,
+				488DA37F2A9EC8E1009FF495 /* VollmedApp.swift in Sources */,
+				484E9C512AA660D500C7EE81 /* SignUpView.swift in Sources */,
+				488DA3992A9ED044009FF495 /* ButtonView.swift in Sources */,
+				484E9C552AA6A8E700C7EE81 /* Login.swift in Sources */,
+				481DFA5A2AA0BA6200C21285 /* MyAppointmentsView.swift in Sources */,
+				48D4B3F72AA0040F002A41C3 /* ScheduleAppointmentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		488DA3872A9EC8E2009FF495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		488DA3882A9EC8E2009FF495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		488DA38A2A9EC8E2009FF495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Vollmed/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giovannamoeller.Vollmed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		488DA38B2A9EC8E2009FF495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Vollmed/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.giovannamoeller.Vollmed;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		488DA3762A9EC8E1009FF495 /* Build configuration list for PBXProject "Vollmed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				488DA3872A9EC8E2009FF495 /* Debug */,
+				488DA3882A9EC8E2009FF495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		488DA3892A9EC8E2009FF495 /* Build configuration list for PBXNativeTarget "Vollmed" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				488DA38A2A9EC8E2009FF495 /* Debug */,
+				488DA38B2A9EC8E2009FF495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 488DA3732A9EC8E1009FF495 /* Project object */;
+}
