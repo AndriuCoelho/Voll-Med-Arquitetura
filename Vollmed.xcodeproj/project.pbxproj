@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03BB7B792AAE8CC000F04033 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BB7B782AAE8CC000F04033 /* HomeViewModel.swift */; };
+		03BB7B7F2AB134F300F04033 /* Endpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BB7B7E2AB134F300F04033 /* Endpoint.swift */; };
 		481DFA5A2AA0BA6200C21285 /* MyAppointmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481DFA592AA0BA6200C21285 /* MyAppointmentsView.swift */; };
 		481DFA5C2AA0BE7000C21285 /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481DFA5B2AA0BE7000C21285 /* Appointment.swift */; };
 		481DFA5E2AA10EA300C21285 /* CancelAppointmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481DFA5D2AA10EA300C21285 /* CancelAppointmentView.swift */; };
@@ -33,6 +35,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03BB7B782AAE8CC000F04033 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		03BB7B7E2AB134F300F04033 /* Endpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Endpoint.swift; sourceTree = "<group>"; };
 		481DFA592AA0BA6200C21285 /* MyAppointmentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppointmentsView.swift; sourceTree = "<group>"; };
 		481DFA5B2AA0BE7000C21285 /* Appointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
 		481DFA5D2AA10EA300C21285 /* CancelAppointmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelAppointmentView.swift; sourceTree = "<group>"; };
@@ -70,6 +74,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03BB7B772AAE8C2900F04033 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				03BB7B782AAE8CC000F04033 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		03BB7B7A2AB132DE00F04033 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				03BB7B7B2AB132E900F04033 /* Base */,
+				03BB7B7C2AB132EE00F04033 /* Endpoints */,
+				03BB7B7D2AB132FC00F04033 /* Services */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		03BB7B7B2AB132E900F04033 /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				03BB7B7E2AB134F300F04033 /* Endpoint.swift */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		03BB7B7C2AB132EE00F04033 /* Endpoints */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Endpoints;
+			sourceTree = "<group>";
+		};
+		03BB7B7D2AB132FC00F04033 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
 		484E9C5A2AA7688F00C7EE81 /* Managers */ = {
 			isa = PBXGroup;
 			children = (
@@ -99,9 +143,11 @@
 			children = (
 				484E9C5A2AA7688F00C7EE81 /* Managers */,
 				48D4B3F82AA006B4002A41C3 /* Extensions */,
+				03BB7B772AAE8C2900F04033 /* ViewModel */,
 				488DA3902A9EC927009FF495 /* Views */,
 				488DA38F2A9EC921009FF495 /* Models */,
 				488DA38E2A9EC919009FF495 /* Services */,
+				03BB7B7A2AB132DE00F04033 /* Networking */,
 				488DA37E2A9EC8E1009FF495 /* VollmedApp.swift */,
 				488DA3802A9EC8E1009FF495 /* ContentView.swift */,
 				488DA3822A9EC8E2009FF495 /* Assets.xcassets */,
@@ -243,6 +289,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				484E9C532AA6824D00C7EE81 /* Patient.swift in Sources */,
+				03BB7B792AAE8CC000F04033 /* HomeViewModel.swift in Sources */,
 				481DFA5C2AA0BE7000C21285 /* Appointment.swift in Sources */,
 				48D4B3FA2AA006BC002A41C3 /* Date+.swift in Sources */,
 				484E9C592AA763A000C7EE81 /* KeychainHelper.swift in Sources */,
@@ -258,6 +305,7 @@
 				485F9A7B2AAA9E7200019230 /* AuthenticationManager.swift in Sources */,
 				488DA3812A9EC8E1009FF495 /* ContentView.swift in Sources */,
 				488DA37F2A9EC8E1009FF495 /* VollmedApp.swift in Sources */,
+				03BB7B7F2AB134F300F04033 /* Endpoint.swift in Sources */,
 				484E9C512AA660D500C7EE81 /* SignUpView.swift in Sources */,
 				488DA3992A9ED044009FF495 /* ButtonView.swift in Sources */,
 				484E9C552AA6A8E700C7EE81 /* Login.swift in Sources */,
