@@ -12,7 +12,7 @@
 		03BB7B832AB13BE500F04033 /* RequestMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BB7B822AB13BE500F04033 /* RequestMethod.swift */; };
 		03BB7B852AB276C400F04033 /* RequestError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BB7B842AB276C400F04033 /* RequestError.swift */; };
 		03BB7B872AB2789C00F04033 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BB7B862AB2789C00F04033 /* HTTPClient.swift */; };
-		03BB7B892AB3AB8A00F04033 /* ListaDeCompras.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BB7B882AB3AB8A00F04033 /* ListaDeCompras.swift */; };
+		03BB7B8D2AB6260F00F04033 /* HomeEndpoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03BB7B8C2AB6260F00F04033 /* HomeEndpoint.swift */; };
 		481DFA5A2AA0BA6200C21285 /* MyAppointmentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481DFA592AA0BA6200C21285 /* MyAppointmentsView.swift */; };
 		481DFA5C2AA0BE7000C21285 /* Appointment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481DFA5B2AA0BE7000C21285 /* Appointment.swift */; };
 		481DFA5E2AA10EA300C21285 /* CancelAppointmentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 481DFA5D2AA10EA300C21285 /* CancelAppointmentView.swift */; };
@@ -44,7 +44,7 @@
 		03BB7B822AB13BE500F04033 /* RequestMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestMethod.swift; sourceTree = "<group>"; };
 		03BB7B842AB276C400F04033 /* RequestError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestError.swift; sourceTree = "<group>"; };
 		03BB7B862AB2789C00F04033 /* HTTPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
-		03BB7B882AB3AB8A00F04033 /* ListaDeCompras.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListaDeCompras.swift; sourceTree = "<group>"; };
+		03BB7B8C2AB6260F00F04033 /* HomeEndpoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeEndpoint.swift; sourceTree = "<group>"; };
 		481DFA592AA0BA6200C21285 /* MyAppointmentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppointmentsView.swift; sourceTree = "<group>"; };
 		481DFA5B2AA0BE7000C21285 /* Appointment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Appointment.swift; sourceTree = "<group>"; };
 		481DFA5D2AA10EA300C21285 /* CancelAppointmentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancelAppointmentView.swift; sourceTree = "<group>"; };
@@ -114,6 +114,7 @@
 		03BB7B7C2AB132EE00F04033 /* Endpoints */ = {
 			isa = PBXGroup;
 			children = (
+				03BB7B8C2AB6260F00F04033 /* HomeEndpoint.swift */,
 			);
 			path = Endpoints;
 			sourceTree = "<group>";
@@ -193,7 +194,6 @@
 				481DFA5B2AA0BE7000C21285 /* Appointment.swift */,
 				484E9C522AA6824D00C7EE81 /* Patient.swift */,
 				484E9C542AA6A8E700C7EE81 /* Login.swift */,
-				03BB7B882AB3AB8A00F04033 /* ListaDeCompras.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -314,6 +314,7 @@
 				488DA38D2A9EC905009FF495 /* HomeView.swift in Sources */,
 				03BB7B852AB276C400F04033 /* RequestError.swift in Sources */,
 				484E9C572AA6BED500C7EE81 /* UserDefaultsHelper.swift in Sources */,
+				03BB7B8D2AB6260F00F04033 /* HomeEndpoint.swift in Sources */,
 				488DA3972A9ECD5F009FF495 /* SpecialistCardView.swift in Sources */,
 				484E9C4F2AA65EA300C7EE81 /* SignInView.swift in Sources */,
 				485F9A7B2AAA9E7200019230 /* AuthenticationManager.swift in Sources */,
@@ -323,7 +324,6 @@
 				03BB7B7F2AB134F300F04033 /* Endpoint.swift in Sources */,
 				484E9C512AA660D500C7EE81 /* SignUpView.swift in Sources */,
 				488DA3992A9ED044009FF495 /* ButtonView.swift in Sources */,
-				03BB7B892AB3AB8A00F04033 /* ListaDeCompras.swift in Sources */,
 				484E9C552AA6A8E700C7EE81 /* Login.swift in Sources */,
 				481DFA5A2AA0BA6200C21285 /* MyAppointmentsView.swift in Sources */,
 				48D4B3F72AA0040F002A41C3 /* ScheduleAppointmentView.swift in Sources */,
